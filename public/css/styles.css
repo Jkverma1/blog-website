@@ -1,0 +1,41 @@
+
+/* navbar */
+
+.container-fluid{
+  padding: 0.5rem 0.5rem;
+  background-color:pink;
+}
+
+.navbar-nav{
+  position: absolute;
+  right: 0;
+}
+
+/* compose */
+.compose{
+  margin-top: 1rem;
+  padding: 1rem 5rem;
+}
+.compose input,textarea{
+  width: 80%;
+  display: block;
+}
+button[type="submit"]{
+  border:1px solid transparent;
+  border-radius: 0.2rem;
+  background: skyblue;
+  color: white;
+}
+
+
+/* footer */
+footer{
+  text-align: center;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+}
